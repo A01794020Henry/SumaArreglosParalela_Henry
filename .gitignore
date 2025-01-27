@@ -1,0 +1,20 @@
+# Ignorar la carpeta .vs (archivos de configuración de Visual Studio)
+.vs/
+
+# Ignorar archivos de compilación y temporales
+*.exe
+*.obj
+*.pdb
+*.log
+*.suo
+*.user
+*.ipch
+*.db
+*.idb
+*.ilk
+
+# Ignorar carpetas de compilación
+Debug/
+Release/
+x64/
+x86/
