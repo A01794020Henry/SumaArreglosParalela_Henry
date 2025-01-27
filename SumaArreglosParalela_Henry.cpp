@@ -21,6 +21,7 @@ int main() {
     // *** Llenado de los arreglos con valores aleatorios ***
     // La directiva #pragma omp parallel for divide el trabajo de este bucle for entre múltiples hilos
     // Cada hilo llena una parte del arreglo A y B de forma simultánea
+
 #pragma omp parallel for
     for (int i = 0; i < TAM; ++i) {
         A[i] = std::rand() % 100; // Genera un número aleatorio entre 0 y 99 para A[i]
@@ -30,6 +31,7 @@ int main() {
     // *** Suma de los arreglos A y B en paralelo ***
     // Otro bucle paralelo para calcular la suma elemento por elemento
     // El resultado de cada suma se almacena en el arreglo R
+
 #pragma omp parallel for
     for (int i = 0; i < TAM; ++i) {
         R[i] = A[i] + B[i]; // Suma de los elementos A[i] y B[i]
