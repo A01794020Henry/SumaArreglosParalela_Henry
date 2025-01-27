@@ -51,7 +51,6 @@ int main() {
     return 0; // Fin del programa, devolvemos 0 indicando ejecución exitosa
 }
 
-
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
 // Depurar programa: F5 o menú Depurar > Iniciar depuración
 
